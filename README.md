@@ -1,1 +1,1 @@
-# gluster-moodle-glustermood-
+# gluster-moodle

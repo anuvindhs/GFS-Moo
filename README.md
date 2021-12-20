@@ -1,3 +1,3 @@
 # gluster-moodle
 
-this repo is under devlopment
+this repo is under development

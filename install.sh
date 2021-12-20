@@ -2,7 +2,7 @@
 
 
 # Get the IP of the Gluster Nodes
-echo -e "\e[1;34m"
+echo -e "\e[1;33m"
 cat assets/logo.txt 
 echo -e "\e[1;32m"
 read -p "Enter GlusterFS-01 Node IP:" ip1

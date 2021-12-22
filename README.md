@@ -1,6 +1,6 @@
 # <img width="50" alt="portfolio_view" src=./assets/GFS-Moo.gif> GlusterFS for Moodle
 (Redundant Storage Pool Using GlusterFS on Ubuntu Servers for moodle)
-![](./assets/banner.gif)
+![](./assets/gfsbanner.png)
 
 ------------
 

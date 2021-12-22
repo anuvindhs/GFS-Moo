@@ -36,11 +36,10 @@ Here is **AWS CLI script** if you want to launch through CLI or use AWS Console
 
 Use Putty to SSH into all three Servers, [Configure putty](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
 If you want to use muti-SSH try [mRemoteNG](https://mremoteng.org/) (recommended) 
-
-
 Also Note down the Public IP for all three servers, for the easy of understanding 
 
 Let's Re-name  Servers on Console
+
 |  Server   | Rename to   | Public IP   |
 | :------------: | :------------: | :------------: |
 |Server 1    | GlusterFS-01  |ip1 (use your server1 public IP) |
@@ -51,7 +50,7 @@ Let's Re-name  Servers on Console
 ### Basic Installation
 Please follow the process orderly
 |  Stage | On Server | Command   |
-| ------------ | ------------ | ------------ |
+| :------------: | :------------: |:------------: |
 |  1 | GlusterFS-02 |`sh -c "$(curl -fsSL https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh )"`    |
 |   |   |   |
 SSH into GlusterFS- 02 

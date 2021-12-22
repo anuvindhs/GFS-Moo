@@ -48,13 +48,20 @@ Let's Re-name  Servers on Console
 ------------
 
 ### Basic Installation
-Please follow the process orderly
+SSH into Servers orderly and run commands
+
+
+Get root privilages to run command 
+`sudo su -`
+
 |  Stage | On Server | Command   |
-| :------------: | :------------: |:------------: |
-|  1 | GlusterFS-02 |`sh -c "$(curl -fsSL https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh )"`    |
-|   |   |   |
-SSH into GlusterFS- 02 
+| :------------: | :------------: |:------------ |
+|  1 | **GlusterFS-02** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
+|  2 |**GlusterFS-03** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
+| 3 | **GlusterFS-01** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
 
-GFS-Moo can be installed by running one of the following commands in your terminal
+------------
+## License
 
+Released under the [MIT license](LICENSE.txt).
 

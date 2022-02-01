@@ -3,8 +3,11 @@
 (Redundant Storage Pool Using GlusterFS on Ubuntu Servers for moodle)
 ![](./assets/gfsbanner.png)
 
+<h1 align="center">
 
   ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=anuvindhs/GFS-Moo) ![watchers](https://img.shields.io/github/watchers/anuvindhs/GFS-Moo) ![Licence](https://img.shields.io/github/license/anuvindhs/GFS-Moo) ![bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg) ![stars](https://img.shields.io/github/stars/anuvindhs/GFS-Moo) 
+
+</h1>
 
 ## Prerequisites 
 ------------

@@ -4,7 +4,7 @@
 ![](./assets/gfsbanner.png)
 
 
-![watchers](https://img.shields.io/github/watchers/anuvindhs/GFS-Moo.svg) ![Forks](https://img.shields.io/github/forks/anuvindhs/GFS-Moo.svg) ![Lisence](	https://img.shields.io/github/license/anvuindhs/.svg)	![bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg) ![stars](https://img.shields.io/github/stars/anuvindhs/GFS-Moo.svg)
+![watchers](https://img.shields.io/github/watchers/anuvindhs/GFS-Moo) ![Licence](https://img.shields.io/github/license/anuvindhs/GFS-Moo) ![bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg) ![stars](https://img.shields.io/github/stars/anuvindhs/GFS-Moo) 
 
 
 ## Prerequisites 

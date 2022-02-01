@@ -23,7 +23,7 @@ Launch three ubuntu based EC2 with enabled public IP (EIP recommended for produc
 **Security Group** For Moodle (LAMP)
 |  Type | Protocol  | Ports  | Source |Description   |
 | :------------: | :------------: | :------------: | :------------: |:------------: |
-| HTTP |TCP | 80 | Users | For HTTPS traffic|
+| HTTP |TCP | 80 | Users | For HTTP traffic|
 |HTTPS |TCP| 443 | Users | For HTTPS traffic |
 
 </br>
@@ -76,8 +76,8 @@ sudo su -
 
 |  Stage | On Server | Command   |
 | :------------: | :------------: |:------------ |
-|  1 | **GlusterFS-02** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
-|  2 |**GlusterFS-03** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
+|  1 | **GlusterFS-03** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
+|  2 |**GlusterFS-02** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
 | 3 | **GlusterFS-01** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
 
 [Inspect install.sh Code](https://github.com/anuvindhs/GFS-Moo/blob/main/install.sh) 

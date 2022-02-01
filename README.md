@@ -4,8 +4,7 @@
 ![](./assets/gfsbanner.png)
 
 
-![watchers](https://img.shields.io/github/watchers/anuvindhs/GFS-Moo) ![Licence](https://img.shields.io/github/license/anuvindhs/GFS-Moo) ![bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg) ![stars](https://img.shields.io/github/stars/anuvindhs/GFS-Moo) 
-
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=anuvindhs/GFS-Moo) ![Visitor Badge](https://visitor-badges.glitch.me?username=snuvindhs&repo=GFS-Moo) ![watchers](https://img.shields.io/github/watchers/anuvindhs/GFS-Moo) ![Licence](https://img.shields.io/github/license/anuvindhs/GFS-Moo) ![bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg) ![stars](https://img.shields.io/github/stars/anuvindhs/GFS-Moo) 
 
 ## Prerequisites 
 ------------

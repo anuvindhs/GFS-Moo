@@ -3,8 +3,7 @@
 
 <h2 align="right">
 
-[<img width="150" alt="portfolio_view" src=./assets/tweetthis.png>](<./assets/tweetthis.html>)
-<a href="" rel="some text"><img src="/path/to/file" alt="" /></a> 
+[<img width="150" alt="portfolio_view" src=./assets/tweetthis.png>](https://link.anuvindh.com/twitter/GFS-Moo-Github-tweet.html )
 
 
 </h2>

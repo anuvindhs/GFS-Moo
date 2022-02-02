@@ -3,7 +3,8 @@
 
 <h2 align="right">
 
-[<img width="150" alt="portfolio_view" src=./assets/tweetthis.png>](./assets.tweetthis.html)
+[<img width="150" alt="portfolio_view" src=./assets/tweetthis.png>](<./assets/tweetthis.html>)
+<a href="" rel="some text"><img src="/path/to/file" alt="" /></a> 
 
 
 </h2>

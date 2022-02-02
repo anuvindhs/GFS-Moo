@@ -46,7 +46,7 @@ function moodle-app  {
         # wget https://download.moodle.org/download.php/direct/stable36/moodle-latest-36.tgz -O ~/downloads/moodle-latest.tgz 
         # tar -xvzf moodle-latest.tgz 
         
-        git clone -b MOODLE_311_STABLE https://github.com/moodle/moodle.git &>> debug.txt |echo -e "\e[1;37m [+] Downloading Moodle from git. . . . .\e[0m"
+        git clone -b MOODLE_311_STABLE https://github.com/moodle/moodle.git &>> debug.txt |echo -e "\e[1;37m [+] Downloading Moodle v3.11 from github. . . . .\e[0m"
         wdir=`pwd`
         # git branch -a
         # git checkout MOODLE_311_STABLE

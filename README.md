@@ -1,18 +1,41 @@
-# <img width="50" alt="portfolio_view" src=./assets/GFS-Moo.gif> GlusterFS for Moodle
-------------
-(Redundant Storage Pool Using GlusterFS on Ubuntu Servers for moodle)
-![](./assets/gfsbanner.png)
+# <img width="50" alt="portfolio_view" src=./assets/GFS-Moo.gif> GFS-Moo (LAMP+GlusterFS+Moodle on Debian)
+  ** This repo is under development 
 
-<h1 align="center">
+<h2 align="right">
+
+[<img width="150" alt="portfolio_view" src=./assets/tweetthis.png>](./assets.tweetthis.html)
+
+
+</h2>
+------------
+
+<h2 align="center">
+
+![Banner](./assets/gfsbanner.png)
+
+
 
   ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=anuvindhs/GFS-Moo) ![watchers](https://img.shields.io/github/watchers/anuvindhs/GFS-Moo) ![Licence](https://img.shields.io/github/license/anuvindhs/GFS-Moo) ![bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg) ![stars](https://img.shields.io/github/stars/anuvindhs/GFS-Moo) 
 
-</h1>
+</h2>
+
+## GlusterFS for Moodle
+------------
+ Redundant Storage Pool Using GlusterFS on Debian Servers for moodle
+
+### Architecture
+<h2 align="center">
+
+![](./assets/architecture.png)
+</h2>
+
+
+
 
 ## Prerequisites 
 ------------
-Launch three ubuntu based EC2 with enabled public IP (EIP recommended for production) & security groups with ports open as shown below. 
-
+Launch three ubuntu based EC2/VM (EIP recommended for production) & security groups with ports open as shown below. 
+### Security Groups
 **Security Group** For GFS
 |  Type | Protocol  | Ports  | Source |Description   |
 | :------------: | :------------: | :------------: | :------------: |:------------: |
@@ -30,9 +53,9 @@ Launch three ubuntu based EC2 with enabled public IP (EIP recommended for produc
 
 </br>
 
-Here is **AWS CLI script** if you want to launch through CLI or use AWS Console 
+### EC2 
 
- 
+Here is **AWS CLI script** if you want to launch through CLI or use AWS Console 
 
 ```bash
  aws ec2 run-instances \ 
@@ -49,7 +72,7 @@ Here is **AWS CLI script** if you want to launch through CLI or use AWS Console
 </br>
 
 Use Putty to SSH into all three Servers, [Configure putty](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
-If you want to use muti-SSH try [mRemoteNG](https://mremoteng.org/) (recommended) 
+If you want to use muti-SSH try [mRemoteNG](https://mremoteng.org/) 
 Also Note down the Public IP for all three servers, for the easy of understanding 
 
 Let's Re-name  Servers on Console
@@ -59,6 +82,19 @@ Let's Re-name  Servers on Console
 |Server 1    | GlusterFS-01  |ip1 (use your server1 public IP) |
 |Server 2 | GlusterFS-02  |ip2 (use your server2 public IP) |
 |Server 3 | GlusterFS-03  |ip3 (use your server3 public IP) |
+
+### Git
+Make sure EC2/VM have git installed</br>
+ To check 
+ ```bash 
+ git --version
+ ```
+ 
+ To install git </br>
+ 
+  ```bash
+  sudo apt install git-all
+  ```
 
 
 ## Tutorial
@@ -83,6 +119,7 @@ sudo su -
 | 3 | **GlusterFS-01** |`wget https://raw.githubusercontent.com/anuvindhs/GFS-Moo/main/install.sh ` </br> `chmod u+x install.sh ` </br> `./instal.sh`|
 
 [Inspect install.sh Code](https://github.com/anuvindhs/GFS-Moo/blob/main/install.sh) 
+
 #### Mount Folder
 
 ```bash

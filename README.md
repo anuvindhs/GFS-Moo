@@ -7,7 +7,7 @@
 
 
 </h2>
-------------
+
 
 <h2 align="center">
 
@@ -20,7 +20,7 @@
 </h2>
 
 ## GlusterFS for Moodle
-------------
+
  Redundant Storage Pool Using GlusterFS on Debian Servers for moodle
 
 ### Architecture
@@ -33,7 +33,7 @@
 
 
 ## Prerequisites 
-------------
+
 Launch three ubuntu based EC2/VM (EIP recommended for production) & security groups with ports open as shown below. 
 ### Security Groups
 **Security Group** For GFS
@@ -61,7 +61,7 @@ Here is **AWS CLI script** if you want to launch through CLI or use AWS Console
  aws ec2 run-instances \ 
    --image-id ami-xxxxxxxxxxxxxx\ 
     --count 3 \ 
-    --instance-type t2.micro \ 
+    --instance-type xx.xxxx \ 
     --key-name YourKey \ 
     --security-group-ids sg-xxxxxxxxxxxx \ 
     --subnet-id subnet-xxxxxxx \ 
@@ -98,12 +98,12 @@ Make sure EC2/VM have git installed</br>
 
 
 ## Tutorial
-------------
+
 #### Blog
 #### Youtube
 
 ## Basic Installation
-------------
+
 SSH into Servers orderly and run commands
 
 
@@ -127,6 +127,6 @@ sudo mount -t glusterfs gfs-moo-01:/gv0 /var/www/moodledata
 ```
 
 ## License
-------------
+
 Released under the [MIT license](LICENSE.txt).
 

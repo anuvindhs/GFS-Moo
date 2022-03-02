@@ -50,6 +50,7 @@ Launch three ubuntu based EC2/VM (EIP recommended for production) & security gro
 | :------------: | :------------: | :------------: | :------------: |:------------: |
 | HTTP |TCP | 80 | Users | For HTTP traffic|
 |HTTPS |TCP| 443 | Users | For HTTPS traffic |
+|Custom ICMP IPv4|All|All|	0.0.0.0/0|For ICMP traffic|
 
 </br>
 

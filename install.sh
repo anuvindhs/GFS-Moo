@@ -143,12 +143,13 @@ echo -e "\e[1;37m 3. GFS-Moo-03 \e[0m"
 echo -e "\e[1;32m"
 read -p "  Enter your choice:" option
 echo -e "\e[0m"
-host=$(hostname)
+
 
 if [ $option == "1" ]
 then
     echo -e "\e[1;37m  [+] You have selected \e[1;32m GFS-Moo-01\e[0m"
     hostnamectl set-hostname gfs-moo-01
+    host=$(hostname)
     echo "127.0.0.1 $host" > /etc/hosts
     echo "$ip2  gfs-moo-02" >> /etc/hosts
     echo "$ip3  gfs-moo-03" >> /etc/hosts
@@ -158,6 +159,7 @@ else
     then
         echo -e "\e[1;37m  [+] You have selected \e[1;32m GFS-Moo-02\e[0m"
         sudo hostnamectl set-hostname gfs-moo-02
+        host=$(hostname)
         echo "127.0.0.1 $host" > /etc/hosts
         echo "$ip1  gfs-moo-01" >> /etc/hosts
         echo "$ip3  gfs-moo-03" >> /etc/hosts
@@ -166,6 +168,7 @@ else
         then
         echo -e "\e[1;37m  [+] You have selected \e[1;32m GFS-Moo-03\e[0m"
         sudo hostnamectl set-hostname gfs-moo-03
+        host=$(hostname)
         echo "127.0.0.1 $host" > /etc/hosts
         echo "$ip1  gfs-moo-01" >> /etc/hosts
         echo "$ip2  gfs-moo-02" >> /etc/hosts

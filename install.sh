@@ -143,6 +143,8 @@ echo -e "\e[1;37m 3. GFS-Moo-03 \e[0m"
 echo -e "\e[1;32m"
 read -p "  Enter your choice:" option
 echo -e "\e[0m"
+hostname="$(hostname)"
+
 if [ $option == "1" ]
 then
     echo -e "\e[1;37m  [+] You have selected \e[1;32m GFS-Moo-01\e[0m"

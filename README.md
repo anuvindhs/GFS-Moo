@@ -1,5 +1,5 @@
 # <img width="50" alt="portfolio_view" src=./assets/GFS-Moo.gif> GFS-Moo (LAMP+GlusterFS+Moodle on Debian)
-  ** This repo is under development 
+  
 
 <h2 align="right">
 
@@ -40,10 +40,11 @@ Launch three ubuntu based EC2/VM (EIP recommended for production) & security gro
 |  Type | Protocol  | Ports  | Source |Description   |
 | :------------: | :------------: | :------------: | :------------: |:------------: |
 | SSH| SSH   | 22  | Administration Host Security Group   |Administration Host Security Group |
-|  Custom TCP Rule  |  TCP | 2007  |  GlusterFS Security Group Secure Transport Server Security Group  | Gluster Daemon |
-|  Custom TCP Rule  |TCP   | 111  | GlusterFS Security Group SecureTransport Server Security Group   | Portmapper |
-| Custom TCP Rule   |TCP   | 49152-49251   |  GlusterFS Security Group SecureTransport Server Security Group  |Each brick for every volume on your host requires its own port  |
-| Custom TCP Rule   | TCP  |  2049  | GlusterFS Security Group SecureTransport Server Security Group    | NFS |
+|  Custom TCP Rule  |  TCP | 24007  |  Gluster Server   | Gluster Daemon |
+|  Custom TCP Rule  |TCP   | 111  | Gluster Server    | Portmapper |
+|Custom UCP Rule |UDP|111|Gluster Server    | Portmapper |
+| Custom TCP Rule   |TCP   | 49152-49155   |  Gluster Server   |Each brick for every volume on your host requires its own port  |
+| Custom TCP Rule   | TCP  |  2049  | Gluster Server     | NFS |
 
 **Security Group** For Moodle (LAMP)
 |  Type | Protocol  | Ports  | Source |Description   |
@@ -51,6 +52,13 @@ Launch three ubuntu based EC2/VM (EIP recommended for production) & security gro
 | HTTP |TCP | 80 | Users | For HTTP traffic|
 |HTTPS |TCP| 443 | Users | For HTTPS traffic |
 |Custom ICMP IPv4|All|All|	0.0.0.0/0|For ICMP traffic|
+
+
+**Security Group** For Database 
+
+|  Type | Protocol  | Ports |
+| :------------: | :------------: | :------------: | 
+|RDS|TCP|3306|
 
 </br>
 
@@ -101,7 +109,10 @@ Make sure EC2/VM have git installed</br>
 ## Tutorial
 
 #### Blog
+[Read on dev.to](https://dev.to/aws-builders/gfs-moo-moodle-glusterfs-lamp-on-cloud-3m0i)
+[Read On iCTPro.co.nz](https://ictpro.co.nz/gfs-moo-install-moodle-glusterfs-lamp-on-cloud-100-days-of-cloud-day-17/)
 #### Youtube
+*coming soon
 
 ## Basic Installation
 

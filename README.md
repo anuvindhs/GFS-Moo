@@ -111,8 +111,7 @@ Make sure EC2/VM have git installed</br>
 #### Blog
 [Read on dev.to](https://dev.to/aws-builders/gfs-moo-moodle-glusterfs-lamp-on-cloud-3m0i)
 [Read On iCTPro.co.nz](https://ictpro.co.nz/gfs-moo-install-moodle-glusterfs-lamp-on-cloud-100-days-of-cloud-day-17/)
-#### Youtube
-*coming soon
+
 
 ## Basic Installation
 

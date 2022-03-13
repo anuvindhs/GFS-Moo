@@ -21,7 +21,7 @@
 
 ## GlusterFS for Moodle
 
- Redundant Storage Pool Using GlusterFS on Debian Servers for moodle [Tweet this](https://twitter.com/intent/tweet?text=GFS Moo - Redundant Storage Pool for Moodle Using GlusterFS on Debian Servers for moodle , a blog by @anuvindhs https://github.com/anuvindhs/GFS-Moo.git)
+ Redundant Storage Pool Using GlusterFS on Debian Servers for moodle 
 
 ### Architecture
 <h2 align="center">

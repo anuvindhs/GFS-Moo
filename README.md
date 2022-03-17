@@ -114,7 +114,7 @@ Make sure EC2/VM have git installed</br>
 
 #### Blog on installing one click install for LAMP + Moodle
 
-[Read on dev.to](https://dev.to/aws-builders/building-your-first-e-learning-platform-for-free-488o)
+[Read on dev.to](https://dev.to/aws-builders/building-your-first-e-learning-platform-for-free-488o) </br>
 [Read on iCTPro.co.nz](https://ictpro.co.nz/building-your-first-e-learning-platform-for-free-100-days-of-cloud-day-20/)
 
 
